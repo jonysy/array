@@ -1,0 +1,1 @@
+pub type Array<T, L> = <L as super::ArrayLength<T>>::Array;
